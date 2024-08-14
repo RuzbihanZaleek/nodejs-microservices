@@ -1,0 +1,36 @@
+# Ignore node modules
+node_modules/
+
+# Ignore Docker volumes
+mysql_data/
+mongo_data/
+
+# Ignore logs
+logs/
+*.log
+npm-debug.log*
+
+# Ignore environment files
+.env
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# Ignore Nginx configuration
+nginx/nginx.conf
+
+# Ignore Docker Compose override files
+docker-compose.override.yml
+
+# Ignore Docker build cache
+**/Dockerfile~
